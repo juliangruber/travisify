@@ -32,7 +32,7 @@ withConfig(function (config) {
         else if (process.argv[2] === 'badge') {
             console.log([
                 '[![build status](https://secure.travis-ci.org/',
-                repo, '.png)]',
+                repo, '.svg)]',
                 '(http://travis-ci.org/', repo, ')',
             ].join(''));
         }
